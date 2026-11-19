@@ -1,0 +1,13 @@
+[plugin]
+id = "com.steampresence.bridge"
+name = "Steam Presence Bridge (Prototype)"
+version = "0.0.1"
+author = "SerFoch"
+description = "Experimental Steam game detection and Discord Rich Presence bridge"
+
+[backend]
+entry = "backend/main.lua"
+sources = ["backend/**/*.lua"]
+
+[compiler]
+output_path = "auto"
